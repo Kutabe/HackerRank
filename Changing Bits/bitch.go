@@ -22,7 +22,6 @@ func main() {
 	fmt.Fscanf(input, "%b", a)
 	input.ReadRune()
 	fmt.Fscanf(input, "%b", b)
-	input.ReadRune()
 	for i := 0; i < q; i++ {
 		fmt.Fscan(input, &cmd)
 		fmt.Fscan(input, &idx)
